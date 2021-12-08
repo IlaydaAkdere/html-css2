@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  height: 100vh;
+  width: 100%;
+  background-image:url('bgımage/compbg.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 32px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  cursor: pointer;
+  border-radius:740%;
+  float:left;
+  border:solid 4px rgb(200, 255, 0);
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 25px;
+}
+
+.navbar ul li a:hover{
+  box-shadow:0px 3px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(14, 176, 49);
+  font-size: bold;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  color: white;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 45px;
+  color: rgb(20, 4, 8);
+  box-shadow:5px;
+}
+
+/* .content h1 a:hover{
+  color:#fff;
+  cursor: pointer;
+} */
+
+.content p {
+  margin: 20px auto;
+  color: rgb(184, 184, 175);
+  font-size: bold;
+}
+
+button {
+  width: 150px;
+  padding: 15px 0;
+  border-radius: 35px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  font-weight: 600px;
+  background-color: #6166B3;
+  font-size: 17px;
+
+}
+
+button :hover {
+color:#000;
+transition: 1s;
+}
+
+.has-text-align-center {
+  text-align: center;
+  color:#ffffff;
+  font-size:bold;
+  font-family: "times new roman";
+}
+
+.mailto{
+color:#fff;
+  font-size:bold;
+ font-family: "times new roman";
+ cursor:pointer;
+}
+
